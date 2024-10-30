@@ -1,0 +1,12 @@
+! 2024-05-14 https://www.reddit.com
+www.reddit.com##.m-animated.XPromoPopupRpl__overlay
+www.reddit.com##body,html:style(overflow: auto !important)
+
+! 2024-05-14 https://www.reddit.com
+www.reddit.com##shreddit-experience-tree.theme-beta
+
+www.reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
+www.reddit.com##xpromo-app-selector
+
+! 28 Aug 2024 https://www.reddit.com
+www.reddit.com##alert-controller

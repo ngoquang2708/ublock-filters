@@ -1,0 +1,2 @@
+! 30 Oct 2024 - Hide "Log in to view the conversation" popup
+www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
