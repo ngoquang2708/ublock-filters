@@ -15,3 +15,6 @@ www.reddit.com##xpromo-app-selector
 
 ! 28 Aug 2024 https://www.reddit.com
 www.reddit.com##alert-controller
+
+! Jan 29, 2025 - Hide recent pages
+www.reddit.com##reddit-recent-pages
