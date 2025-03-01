@@ -1,20 +1,19 @@
-! Title: Reddit's annoyances
-! Description: Hide Reddit's annoyances
+! Title: Mobile annoyances
+! Description: Hide Mobile annoyances
 ! Version: 0.0.1
 ! Last modified: 2024-10-30 23:46
 
-! 2024-05-14 https://www.reddit.com
+! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
 www.reddit.com##body,html:style(overflow: auto !important)
-
-! 2024-05-14 https://www.reddit.com
+! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##shreddit-experience-tree.theme-beta
-
 www.reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
 www.reddit.com##xpromo-app-selector
-
-! 28 Aug 2024 https://www.reddit.com
+! 28 Aug 2024 - Reddit - https://www.reddit.com
 www.reddit.com##alert-controller
-
-! Jan 29, 2025 - Hide recent pages
+! Jan 29, 2025 - Reddit - Hide recent pages
 www.reddit.com##reddit-recent-pages
+
+! 1 Mar 2025 - Youtube Shorts - https://m.youtube.com
+m.youtube.com##.rich-section-content

@@ -1,10 +1,10 @@
-! Title: Reddit's annoyances
-! Description: Hide Reddit's annoyances
+! Title: Desktop annoyances
+! Description: Hide Desktop annoyances
 ! Version: 0.0.1
 ! Last modified: 2024-10-30 23:46
 
-! 30 Oct 2024 - Hide "Log in to view the conversation" popup
+! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
 www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
 
-! Jan 29, 2025 - Hide recent pages
+! Jan 29, 2025 - Reddit - Hide recent pages
 www.reddit.com##reddit-recent-pages
