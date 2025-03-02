@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
 ! Version: 0.0.2
-! Last modified: 2025-03-02 00:33
+! Last modified: 2025-03-02 16:47
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -14,6 +14,9 @@ www.reddit.com##xpromo-app-selector
 www.reddit.com##alert-controller
 ! Jan 29, 2025 - Reddit - Hide recent pages
 www.reddit.com##reddit-recent-pages
+
+! 2 Mar 2025 - Hide 9GAG [Use app] button - https://9gag.com
+9gag.com##.use-app
 
 ! 1 Mar 2025 - Youtube Shorts - https://m.youtube.com
 m.youtube.com##.rich-section-content
