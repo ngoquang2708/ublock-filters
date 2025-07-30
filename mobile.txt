@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.3
-! Last modified: 2025-06-08 20:30
+! Version: 0.0.4
+! Last modified: 2025-08-31 06:30
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -10,6 +10,8 @@ www.reddit.com##body,html:style(overflow: auto !important)
 www.reddit.com##shreddit-experience-tree.theme-beta
 www.reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
 www.reddit.com##xpromo-app-selector
+! 31 Jul 2025 https://www.reddit.com
+www.reddit.com###xpromo-bottom-sheet
 ! 28 Aug 2024 - Reddit - https://www.reddit.com
 www.reddit.com##alert-controller
 ! Jan 29, 2025 - Reddit - Hide recent pages
