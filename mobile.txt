@@ -38,3 +38,5 @@ m.youtube.com##.ytm-bottom-sheet-overlay-renderer-container
 m.youtube.com##.YtmBottomSheetOverlayRendererOverlayContainer
 m.youtube.com##.YtmBottomSheetOverlayRendererContainer
 
+! 29 Sept 2025 - Hide "Open in app" button - https://m.youtube.com
+m.youtube.com##.mobile-topbar-header-sign-in-button
