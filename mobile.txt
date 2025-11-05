@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
 ! Version: 0.0.7
-! Last modified: 2025-10-30 06:35
+! Last modified: 2025-11-05 09:14
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -42,3 +42,5 @@ m.youtube.com##.YtmBottomSheetOverlayRendererContainer
 
 ! 29 Sept 2025 - Hide "Open in app" button - https://m.youtube.com
 m.youtube.com##.mobile-topbar-header-sign-in-button
+! 5 Nov 2025 https://m.youtube.com
+m.youtube.com##.feed-nudge-wrapper
