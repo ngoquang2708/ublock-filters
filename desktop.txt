@@ -5,12 +5,12 @@
 
 ! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
 www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
-
 ! Jan 29, 2025 - Reddit - Hide recent pages
 www.reddit.com##reddit-recent-pages
-
 ! 26 Apr 2025 https://www.reddit.com
 www.reddit.com###advertise-button
-
 ! 8 Nov 2025 https://www.reddit.com
 www.reddit.com###credential_picker_container
+
+! 12 Niv 2025 https://www.youtube.com - Hide members-only videos
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
