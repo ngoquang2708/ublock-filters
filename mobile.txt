@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.7
-! Last modified: 2025-11-05 09:14
+! Version: 0.0.8
+! Last modified: 2025-12-15 19:14
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -44,3 +44,5 @@ m.youtube.com##.YtmBottomSheetOverlayRendererContainer
 m.youtube.com##.mobile-topbar-header-sign-in-button
 ! 5 Nov 2025 https://m.youtube.com
 m.youtube.com##.feed-nudge-wrapper
+! 15 Dec 2025 https://m.youtube.com - Ask button
+m.youtube.com##button-view-model.slim_video_action_bar_renderer_button.ytSpecButtonViewModelHost:nth-of-type(2)
