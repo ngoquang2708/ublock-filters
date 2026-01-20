@@ -18,3 +18,6 @@ www.reddit.com##.w-full.max-w-\[750px\].translate-x-0.w-\[inherit\].nd\:visible
 www.youtube.com##:is(ytd-rich-item-renderer,ytd-compact-video-renderer,ytd-video-renderer,ytd-grid-video-renderer):has(.badge-style-type-members-only)
 ! 20 Nov 2025 https://www.youtube.com - AI Summary
 www.youtube.com###expandable-metadata
+
+! 20 Jan 2026 - Google login
+||accounts.google.com/gsi/iframe/select$subdocument
