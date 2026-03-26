@@ -1,7 +1,7 @@
 ! Title: Desktop annoyances
 ! Description: Hide Desktop annoyances
-! Version: 0.0.8
-! Last modified: 2026-03-25 18:00
+! Version: 0.0.9
+! Last modified: 2026-03-26 15:43
 
 ! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
 www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
@@ -23,6 +23,8 @@ www.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
 www.youtube.com###flexible-item-buttons > .ytd-menu-renderer
 ! 25 Mar 2026 https://www.youtube.com - Recommendations
 www.youtube.com##.ytdChipsShelfWithVideoShelfRendererHost
+! 26 Mar 2026 https://www.youtube.com
+www.youtube.com###statement-banner-content
 
 ! 20 Jan 2026 - Google login
 ||accounts.google.com/gsi/iframe/select$subdocument
