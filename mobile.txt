@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.16
-! Last modified: 2026-05-12 20:42
+! Version: 0.0.17
+! Last modified: 2026-05-13 00:21
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -61,3 +61,6 @@ m.youtube.com##button-view-model.slim_video_action_bar_renderer_button.ytSpecBut
 m.youtube.com##.expandableMetadataRendererHost
 ! 31 Jan 2026 https://m.youtube.com - AI Chat
 m.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
+
+! 13 May 2026 https://vnexpress.net
+||accounts.google.com/gsi/iframe/select$subdocument
