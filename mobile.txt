@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.17
-! Last modified: 2026-05-13 00:21
+! Version: 0.0.18
+! Last modified: 2026-05-28 23:07
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -20,6 +20,8 @@ www.reddit.com##alert-controller
 www.reddit.com##reddit-recent-pages
 ! 8 Jun 2025 https://www.reddit.com
 www.reddit.com###answers-nav-button
+! 12 May 2026 https://www.reddit.com
+www.reddit.com###answers-suggested-queries-m3
 ! 30 Oct 2025 https://www.reddit.com
 www.reddit.com###premium-header-campaign
 ! 28 Feb 2026 https://www.reddit.com
@@ -28,8 +30,6 @@ www.reddit.com##.search-hero-small
 www.reddit.com###expand-search-button
 ! 24 Apr 2026 https://www.reddit.com
 www.reddit.com###pdp-app-upsell-seo-bottom-sheet
-! 12 May 2026 https://www.reddit.com
-www.reddit.com###answers-suggested-queries-m3
 
 ! 2 Mar 2025 - Hide 9GAG [Use app] button - https://9gag.com
 9gag.com##.use-app
@@ -61,6 +61,8 @@ m.youtube.com##button-view-model.slim_video_action_bar_renderer_button.ytSpecBut
 m.youtube.com##.expandableMetadataRendererHost
 ! 31 Jan 2026 https://m.youtube.com - AI Chat
 m.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
+! 28 May 2026 https://m.youtube.com
+m.youtube.com##.ytInputComposerButtonViewModelHost
 
 ! 13 May 2026 https://vnexpress.net
 ||accounts.google.com/gsi/iframe/select$subdocument
