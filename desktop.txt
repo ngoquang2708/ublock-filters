@@ -27,6 +27,8 @@ www.youtube.com##.ytdChipsShelfWithVideoShelfRendererHost
 www.youtube.com###statement-banner-content
 ! 26 Mar 2026 https://www.youtube.com
 www.youtube.com##.ytdChipsShelfWithVideoShelfRendererHost
+! 29 May 2026 https://www.youtube.com - Remove ads btn
+www.youtube.com##.iron-selected.ytListItemViewModelHost
 
 ! 20 Jan 2026 - Google login
 ||accounts.google.com/gsi/iframe/select$subdocument
