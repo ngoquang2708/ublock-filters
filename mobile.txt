@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.18
-! Last modified: 2026-05-28 23:07
+! Version: 0.0.19
+! Last modified: 2026-07-04 06:42
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -30,6 +30,8 @@ www.reddit.com##.search-hero-small
 www.reddit.com###expand-search-button
 ! 24 Apr 2026 https://www.reddit.com
 www.reddit.com###pdp-app-upsell-seo-bottom-sheet
+! 4 Jul 2026 https://www.reddit.com
+www.reddit.com###answers-suggested-queries
 
 ! 2 Mar 2025 - Hide 9GAG [Use app] button - https://9gag.com
 9gag.com##.use-app
