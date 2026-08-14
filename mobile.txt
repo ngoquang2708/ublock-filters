@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.19
-! Last modified: 2026-07-04 06:42
+! Version: 0.0.20
+! Last modified: 2026-08-14 23:06
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -65,6 +65,18 @@ m.youtube.com##.expandableMetadataRendererHost
 m.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
 ! 28 May 2026 https://m.youtube.com
 m.youtube.com##.ytInputComposerButtonViewModelHost
+
+! -- Taken from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/ --
+! YT Mobile - Hide the Shorts Menu button
+m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
+! YT Mobile - Hide the Shorts sections
+m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
+! YT Mobile - Search - Hide Shorts
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
+! YT Mobile - Channels - Hide the Shorts button
+m.youtube.com##[tab-title="Shorts"]
+! YT Mobile - History - Hide Shorts
+m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
 
 ! 13 May 2026 https://vnexpress.net
 ||accounts.google.com/gsi/iframe/select$subdocument
