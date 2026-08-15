@@ -1,7 +1,7 @@
 ! Title: Desktop annoyances
 ! Description: Hide Desktop annoyances
-! Version: 0.0.14
-! Last modified: 2026-08-16 01:22
+! Version: 0.0.15
+! Last modified: 2026-08-16 01:27
 
 ! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
 www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
@@ -32,6 +32,12 @@ www.youtube.com###statement-banner-content
 www.youtube.com##.ytdChipsShelfWithVideoShelfRendererHost
 ! 29 May 2026 https://www.youtube.com - Remove ads btn
 www.youtube.com##.iron-selected.ytListItemViewModelHost
+! 16 Aug 2026 https://m.youtube.com
+m.youtube.com##.you-chat-entrypoint-button
+m.youtube.com##.ytCarouselTitleViewModelNavigation
+! 16 Aug 2026 https://m.youtube.com
+m.youtube.com##yt-carousel-item-view-model.ytCarouselItemViewModelHost:nth-of-type(2)
+m.youtube.com##.ytmBackstagePostThreadRendererHost
 
 ! -- Taken from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/ --
 ! 15 Aug 2026 https://www.youtube.com

@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.21
-! Last modified: 2026-08-15 23:27
+! Version: 0.0.22
+! Last modified: 2026-08-16 01:27
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -65,6 +65,12 @@ m.youtube.com##.expandableMetadataRendererHost
 m.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
 ! 28 May 2026 https://m.youtube.com
 m.youtube.com##.ytInputComposerButtonViewModelHost
+! 16 Aug 2026 https://m.youtube.com
+m.youtube.com##.you-chat-entrypoint-button
+m.youtube.com##.ytCarouselTitleViewModelNavigation
+! 16 Aug 2026 https://m.youtube.com
+m.youtube.com##yt-carousel-item-view-model.ytCarouselItemViewModelHost:nth-of-type(2)
+m.youtube.com##.ytmBackstagePostThreadRendererHost
 
 ! -- Taken from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/ --
 ! 15 Aug 2026 https://www.youtube.com
