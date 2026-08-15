@@ -1,7 +1,7 @@
 ! Title: Desktop annoyances
 ! Description: Hide Desktop annoyances
-! Version: 0.0.12
-! Last modified: 2026-08-14 23:06
+! Version: 0.0.13
+! Last modified: 2026-08-15 23:27
 
 ! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
 www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
@@ -34,6 +34,8 @@ www.youtube.com##.ytdChipsShelfWithVideoShelfRendererHost
 www.youtube.com##.iron-selected.ytListItemViewModelHost
 
 ! -- Taken from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/ --
+! 15 Aug 2026 https://www.youtube.com
+www.youtube.com###dismissible
 ! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
 youtube.com##[is-shorts]
 ! YT - Menu - Hide the Shorts button
@@ -57,3 +59,6 @@ www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-hist
 
 ! 20 Jan 2026 - Google login
 ||accounts.google.com/gsi/iframe/select$subdocument
+
+! 14 Aug 2026 https://discord.com
+discord.com##[id^=popoverContentWithGradient_]

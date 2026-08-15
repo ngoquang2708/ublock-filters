@@ -1,7 +1,7 @@
 ! Title: Mobile annoyances
 ! Description: Hide Mobile annoyances
-! Version: 0.0.20
-! Last modified: 2026-08-14 23:06
+! Version: 0.0.21
+! Last modified: 2026-08-15 23:27
 
 ! 2024-05-14 - Reddit - https://www.reddit.com
 www.reddit.com##.m-animated.XPromoPopupRpl__overlay
@@ -67,6 +67,28 @@ m.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
 m.youtube.com##.ytInputComposerButtonViewModelHost
 
 ! -- Taken from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/ --
+! 15 Aug 2026 https://www.youtube.com
+www.youtube.com###dismissible
+! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT - Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT - Search - Hide Shorts
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Search, Channels, Subscriptions (List View) and Sidebar/Below Player Recommendations - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT - Channels - Hide the Shorts tab
+www.youtube.com##[tab-title="Shorts"]
+! YT - Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Sidebar - Hide Shorts
+www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - History - Hide Shorts
+www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-history]>#dismissible>ytd-thumbnail>#thumbnail[href^="/shorts/"])
 ! YT Mobile - Hide the Shorts Menu button
 m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
 ! YT Mobile - Hide the Shorts sections
@@ -80,3 +102,6 @@ m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>
 
 ! 13 May 2026 https://vnexpress.net
 ||accounts.google.com/gsi/iframe/select$subdocument
+
+! 14 Aug 2026 https://discord.com
+discord.com##[id^=popoverContentWithGradient_]
