@@ -1,0 +1,142 @@
+! Title: Desktop/Mobile annoyances
+! Description: Hide Desktop/Mobile annoyances
+! Version: 0.0.1
+! Last modified: 2026-08-16 15:00
+
+! -- Reddit --
+! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
+www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
+! 26 Apr 2025 https://www.reddit.com
+www.reddit.com###advertise-button
+! 8 Nov 2025 https://www.reddit.com
+www.reddit.com###credential_picker_container
+! 12 Dec 2025 https://www.reddit.com - Middle Ask button
+www.reddit.com##.w-full.max-w-\[750px\].translate-x-0.nd\:visible
+www.reddit.com##.w-full.max-w-\[750px\].translate-x-0.w-\[inherit\].nd\:visible
+! 10 Jun 2026 https://www.reddit.com
+www.reddit.com##.home-feed-right-rail
+! 2024-05-14 - Reddit - https://www.reddit.com
+www.reddit.com##.m-animated.XPromoPopupRpl__overlay
+www.reddit.com##body,html:style(overflow: auto !important)
+! 2024-05-14 - Reddit - https://www.reddit.com
+www.reddit.com##shreddit-experience-tree.theme-beta
+www.reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
+www.reddit.com##xpromo-app-selector
+! 31 Jul 2025 https://www.reddit.com
+www.reddit.com###xpromo-bottom-sheet
+! 6 Aug 2025 https://www.reddit.com
+www.reddit.com###xpromo-bottom-bar
+! 28 Aug 2024 - Reddit - https://www.reddit.com
+www.reddit.com##alert-controller
+! Jan 29, 2025 - Reddit - Hide recent pages
+www.reddit.com##reddit-recent-pages
+! 8 Jun 2025 https://www.reddit.com
+www.reddit.com###answers-nav-button
+! 12 May 2026 https://www.reddit.com
+www.reddit.com###answers-suggested-queries-m3
+! 30 Oct 2025 https://www.reddit.com
+www.reddit.com###premium-header-campaign
+! 28 Feb 2026 https://www.reddit.com
+www.reddit.com##.search-hero-small
+! 3 Mar 2026 https://www.reddit.com
+www.reddit.com###expand-search-button
+! 24 Apr 2026 https://www.reddit.com
+www.reddit.com###pdp-app-upsell-seo-bottom-sheet
+! 4 Jul 2026 https://www.reddit.com
+www.reddit.com###answers-suggested-queries
+
+! -- YouTube Desktop --
+! 12 Nov 2025 https://www.youtube.com - Hide members-only videos
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-compact-video-renderer,ytd-video-renderer,ytd-grid-video-renderer):has(.badge-style-type-members-only)
+! 20 Nov 2025 https://www.youtube.com - AI Summary
+www.youtube.com###expandable-metadata
+! 2 Feb 2026 https://www.youtube.com
+www.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
+www.youtube.com###flexible-item-buttons > .ytd-menu-renderer
+! 25 Mar 2026 https://www.youtube.com - Recommendations
+www.youtube.com##.ytdChipsShelfWithVideoShelfRendererHost
+! 26 Mar 2026 https://www.youtube.com
+www.youtube.com###statement-banner-content
+! 29 May 2026 https://www.youtube.com - Remove ads btn
+www.youtube.com##.iron-selected.ytListItemViewModelHost
+! 16 Aug 2026 https://www.youtube.com
+www.youtube.com##[aria-label="Ask"]
+
+! -- YouTube Shop --
+m.youtube.com##.ytWebScrimHostModernOverlay.ytWebScrimHost
+m.youtube.com##.ytm-bottom-sheet-overlay-renderer-container
+! 29 Sept 2025 https://m.youtube.com
+m.youtube.com##.YtmBottomSheetOverlayRendererOverlayContainer
+m.youtube.com##.YtmBottomSheetOverlayRendererContainer
+
+! -- YouTube Mobile annoyances --
+! 29 Sept 2025 - Hide "Open in app" button - https://m.youtube.com
+m.youtube.com##.mobile-topbar-header-sign-in-button
+! 5 Nov 2025 https://m.youtube.com
+m.youtube.com##.feed-nudge-wrapper
+! 15 Dec 2025 https://m.youtube.com - Ask button
+m.youtube.com##button-view-model.slim_video_action_bar_renderer_button.ytSpecButtonViewModelHost:nth-of-type(2)
+! 30 Jan 2026 https://m.youtube.com - AI Summary
+m.youtube.com##.expandableMetadataRendererHost
+! 31 Jan 2026 https://m.youtube.com - AI Chat
+m.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
+! 28 May 2026 https://m.youtube.com
+m.youtube.com##.ytInputComposerButtonViewModelHost
+! 16 Aug 2026 https://m.youtube.com
+m.youtube.com##.you-chat-entrypoint-button
+m.youtube.com##.ytCarouselTitleViewModelNavigation
+! 16 Aug 2026 https://m.youtube.com
+m.youtube.com##yt-carousel-item-view-model.ytCarouselItemViewModelHost:nth-of-type(2)
+m.youtube.com##.ytmBackstagePostThreadRendererHost
+
+! -- YouTube Shorts -- Taken from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/ --
+! 15 Aug 2026 https://www.youtube.com
+www.youtube.com###dismissible
+! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT - Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT - Search - Hide Shorts
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Search, Channels, Subscriptions (List View) and Sidebar/Below Player Recommendations - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT - Channels - Hide the Shorts tab
+www.youtube.com##[tab-title="Shorts"]
+! YT - Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Sidebar - Hide Shorts
+www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - History - Hide Shorts
+www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-history]>#dismissible>ytd-thumbnail>#thumbnail[href^="/shorts/"])
+! YT Mobile - Hide the Shorts Menu button
+m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
+! YT Mobile - Hide the Shorts sections
+m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
+! YT Mobile - Search - Hide Shorts
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
+! YT Mobile - History - Hide Shorts
+m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
+! 1 Mar 2025 - YouTube Shorts - https://m.youtube.com
+m.youtube.com##.rich-section-content
+
+! -- Discord --
+! 14 Aug 2026 https://discord.com
+discord.com##[id^=popoverContentWithGradient_]
+
+! -- 9GAG --
+! 2 Mar 2025 - Hide 9GAG [Use app] button - https://9gag.com
+9gag.com##.use-app
+! 2 Mar 2025 - Hide 9GAG [Post award] button - https://9gag.com
+9gag.com##.post-award-btn
+! 23 Aug 2025 https://9gag.com
+9gag.com##div.post-signup-list-banner
+! 4 May 2026 https://9gag.com
+9gag.com##.show.potz-badge-tooltip--bronze.potz-badge-tooltip
+9gag.com##.small.potz-badge--hoverable.potz-badge
+
+! 20 Jan 2026 - Google login
+||accounts.google.com/gsi/iframe/select$subdocument
