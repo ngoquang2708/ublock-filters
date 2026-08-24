@@ -1,7 +1,7 @@
 ! Title: Desktop/Mobile annoyances
 ! Description: Hide Desktop/Mobile annoyances
-! Version: 0.0.1
-! Last modified: 2026-08-16 15:00
+! Version: 0.0.2
+! Last modified: 2026-08-24 17:07
 
 ! -- Reddit --
 ! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
@@ -90,8 +90,6 @@ m.youtube.com##yt-carousel-item-view-model.ytCarouselItemViewModelHost:nth-of-ty
 m.youtube.com##.ytmBackstagePostThreadRendererHost
 
 ! -- YouTube Shorts -- Taken from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/ --
-! 15 Aug 2026 https://www.youtube.com
-www.youtube.com###dismissible
 ! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
 youtube.com##[is-shorts]
 ! YT - Menu - Hide the Shorts button
