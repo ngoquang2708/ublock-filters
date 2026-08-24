@@ -1,7 +1,7 @@
 ! Title: Desktop/Mobile annoyances
 ! Description: Hide Desktop/Mobile annoyances
-! Version: 0.0.2
-! Last modified: 2026-08-24 17:07
+! Version: 0.0.3
+! Last modified: 2026-08-24 17:21
 
 ! -- Reddit --
 ! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
@@ -112,14 +112,14 @@ www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):h
 www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-history]>#dismissible>ytd-thumbnail>#thumbnail[href^="/shorts/"])
 ! YT Mobile - Hide the Shorts Menu button
 m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
-! YT Mobile - Hide the Shorts sections
-m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
 ! YT Mobile - Search - Hide Shorts
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
 ! YT Mobile - History - Hide Shorts
 m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
 ! 1 Mar 2025 - YouTube Shorts - https://m.youtube.com
 m.youtube.com##.rich-section-content
+! YT - Hide the Shorts sections on both desktop and mobile
+youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
 
 ! -- Discord --
 ! 14 Aug 2026 https://discord.com
