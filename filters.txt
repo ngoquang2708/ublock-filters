@@ -1,7 +1,7 @@
 ! Title: Desktop/Mobile annoyances
 ! Description: Hide Desktop/Mobile annoyances
-! Version: 0.0.3
-! Last modified: 2026-08-24 17:21
+! Version: 0.0.4
+! Last modified: 2026-09-09 22:59
 
 ! -- Reddit --
 ! 30 Oct 2024 - Reddit - Hide "Log in to view the conversation" popup
@@ -61,6 +61,8 @@ www.youtube.com###statement-banner-content
 www.youtube.com##.iron-selected.ytListItemViewModelHost
 ! 16 Aug 2026 https://www.youtube.com
 www.youtube.com##[aria-label="Ask"]
+! 09 Sep 2026 https://www.youtube.com - Playables
+youtube.com###dismissible:has([href^="/playables/"])
 
 ! -- YouTube Shop --
 m.youtube.com##.ytWebScrimHostModernOverlay.ytWebScrimHost
